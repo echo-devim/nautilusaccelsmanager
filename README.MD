@@ -9,7 +9,7 @@ The shortcut configuration file is in `~/.config/nautilus/scripts-accels` and he
 
 I wrote NautilusAccelsManager to edit this file with a gui.
 
-![screenshot](NAM.png "NAM")
+![screenshot](https://raw.githubusercontent.com/echo-devim/nautilusaccelsmanager/master/NAM.jpg "NAM")
 
 ### Details
 Every script will run in the context of the current directory and Nautilus will pass to it all the file names of the selected files in the folder. You can use also some environment variable to get more information like:
