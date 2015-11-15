@@ -12,7 +12,7 @@ I wrote NautilusAccelsManager to edit this file with a gui.
 ![screenshot](https://raw.githubusercontent.com/echo-devim/nautilusaccelsmanager/master/NAM.jpg "NAM")
 
 ### Details
-Every script will run in the context of the current directory and Nautilus will pass to it all the file names of the selected files in the folder. You can use also some environment variable to get more information like:
+Every script will run in the context of the current directory and Nautilus will pass to it all the file name of the selected files in the folder. You can also use some environment variable to get more information like:
 
 - NAUTILUS_SCRIPT_SELECTED_FILE_PATHS
 - NAUTILUS_SCRIPT_SELECTED_URIS
