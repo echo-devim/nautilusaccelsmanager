@@ -5,7 +5,7 @@ Nautilus (the GNOME file manager) supports a new feature to define custom shortc
 The special scripts folder is:
 `~/.locale/applications/nautilus/scripts` and here you can put any executable you want and it will appear in the right-click context-menu.
 
-The shortcut configuration file is in `~/.config/nautilus/scripts-accels` and here you can define your custom shortcuts.
+The shortcut configuration file is `~/.config/nautilus/scripts-accels` and here you can define your custom shortcuts.
 
 I wrote NautilusAccelsManager to edit this file with a gui.
 
