@@ -3,11 +3,18 @@
 Nautilus (the GNOME file manager) supports a new feature to define custom shortcuts to launch the scripts in the special scripts folder.
 
 The special scripts folder is:
-`~/.locale/applications/nautilus/scripts` and here you can put any executable you want and it will appear in the right-click context-menu.
+`~/.local/share/nautilus/scripts` and here you can put any executable you want and it will appear in the right-click context-menu.
 
 The shortcut configuration file is `~/.config/nautilus/scripts-accels` and here you can define your custom shortcuts.
 
 I wrote NautilusAccelsManager to edit this file with a gui.
+
+An example to open the terminal in the current working directory is creating a script called *ScriptName* with the following content:
+```
+#! /bin/sh
+gnome-terminal
+```
+and using the gui set the preferred shortcut to launch it.
 
 ![screenshot](https://raw.githubusercontent.com/echo-devim/nautilusaccelsmanager/master/NAM.jpg "NAM")
 
