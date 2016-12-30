@@ -9,7 +9,7 @@ The shortcut configuration file is `~/.config/nautilus/scripts-accels` and here 
 
 I wrote NautilusAccelsManager to edit this file with a gui.
 
-An example to open the terminal in the current working directory is creating a script called *ScriptName* with the following content:
+An example to open the terminal in the current working directory is creating a script called Terminal (or the name that you prefer) with the following content:
 ```
 #! /bin/sh
 gnome-terminal
